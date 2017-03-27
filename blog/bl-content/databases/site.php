@@ -1,0 +1,27 @@
+<?php defined('BLUDIT') or die('Bludit CMS.'); ?>
+{
+    "title": "Agar",
+    "slogan": "Good code is its own best documentation.",
+    "description": "Blog that holds everything together",
+    "footer": "Copyright \u00a9 2016",
+    "language": "en_US",
+    "locale": "en_US",
+    "timezone": "America\/Los_Angeles",
+    "theme": "future-imperfect",
+    "adminTheme": "default",
+    "homepage": "",
+    "postsperpage": "5",
+    "uriPost": "\/post\/",
+    "uriPage": "\/",
+    "uriTag": "\/tag\/",
+    "url": "http:\/\/brandonkitlo.com\/blog\/",
+    "cliMode": "true",
+    "emailFrom": "brandonklo94@gmail.com",
+    "currentBuild": "20160226",
+    "twitter": "",
+    "facebook": "",
+    "googlePlus": "",
+    "instagram": "",
+    "github": "",
+    "uriBlog": "\/blog\/"
+}

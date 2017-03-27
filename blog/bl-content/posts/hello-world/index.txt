@@ -1,0 +1,2 @@
+Title: Hello World!
+Content: Hello world this is a test post to see the capabilities of this blog. 

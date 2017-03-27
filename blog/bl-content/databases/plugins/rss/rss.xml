@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Agar</title>
+    <link>http://brandonkitlo.com/blog/</link>
+    <description>Blog that holds everything together</description>
+    <item>
+      <title>Programming</title>
+      <link>http://brandonkitlo.com/blog/post/programming</link>
+      <description/>
+    </item>
+    <item>
+      <title>Vandweller</title>
+      <link>http://brandonkitlo.com/blog/post/vandweller</link>
+      <description/>
+    </item>
+    <item>
+      <title>All set up</title>
+      <link>http://brandonkitlo.com/blog/post/all-set-up</link>
+      <description/>
+    </item>
+    <item>
+      <title>Awesome music!</title>
+      <link>http://brandonkitlo.com/blog/post/awesome-music</link>
+      <description/>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <link>http://brandonkitlo.com/blog/post/hello-world</link>
+      <description/>
+    </item>
+    <item>
+      <title>First post</title>
+      <link>http://brandonkitlo.com/blog/post/first-post</link>
+      <description>Welcome to Bludit</description>
+    </item>
+  </channel>
+</rss>

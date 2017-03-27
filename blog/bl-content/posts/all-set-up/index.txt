@@ -1,0 +1,12 @@
+Title: All set up
+Content: 	So far i've tried GRAV, Bolt, Ghost, and then finally this. So far I quite like Bludit's setup. Very simple and very easy to use. No hassle to do anything. Will put a reivew of GRAV at least. Or a large comparison. I've had a long day. Currently watching based Mata destroy everyone in MSI 2016. It's been a productive day where I did my lab, did some EEMB 102 homework and the EEMB 146 labs. Tomorrow I have to do some EEMB 146 studying for the quiz and some studying for the MCDB 134 midterm. In virology we learned some interesting stuff about HPV and the vaccine targets. EEMB 146, I am less prepared, but I did some Rgui coding. R is quite simple, but quite tedious to work with. Probably because my TA is not the best at teaching the syntax, but it is still much better than what I had for EEMB 179. Here's some R code as an example.
+
+```
+load("C:/Users/brand/Documents/R/lab5_files/bumpus.csv")
+Birds <- read.table("C:/Users/brand/Documents/R/lab5_files/bumpus.csv", 
+  header=TRUE, sep=",", na.strings="NA", dec=".", strip.white=TRUE)
+with(Birds, plotMeans(total_length_mm, survival, error.bars="se"))
+```
+
+Some pretty neat stuff done with the way they handle and load CSV files. They seperate each cell with commas. Oh well. time to head to bed. hopefully I finish studying early tomorrow to work on the Riot API challenge which is due next monday. League is still fun, though it is sometimes hard like this game today.
+![Today's LoL match win](hard.png)
