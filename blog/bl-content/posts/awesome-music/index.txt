@@ -1,2 +1,0 @@
-Title: Awesome music!
-Content: {Youtube src='LfephiFN76E'}

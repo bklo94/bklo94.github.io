@@ -1,2 +1,0 @@
-Title: Programming
-Content: While waiting for my reply to my application for OSU Online CS program. I'm going to catch up on some programming skills. My idea is to make a budgeting clone which will be better for me than YNAB. I plan to code it in Java and integrate it with Google Drive with SQLlite or something. First will be a desktop version which will have inputs for the money and custom categories for input which will graph it out. First plan is to relearn Java and then learn how to draw graphs from the data.

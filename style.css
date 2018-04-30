@@ -1,0 +1,72 @@
+/* style.css */
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: -5px;
+}
+
+.titleHeader{
+   position: relative;
+   margin-left: 37.5%;
+}
+
+.newList {
+   list-style: none;
+   margin-left: 0;
+   margin-bottom: 1px;
+   padding-left: 1em;
+   text-indent: -1em;
+}
+
+body{
+   width: 100%;
+   margin: auto;
+   text-align:center
+   color: #444;
+   padding-top: 15px;
+   padding-bottom: 25px;
+}
+
+span{
+  display: block;
+  float: right;
+}
+
+li{
+   margin-bottom: -3px;
+}
+
+div {
+	font-family: Inconsolata;
+	font-size: 0.8rem;
+	font-style: normal;
+	font-variant: normal;
+   line-height: 90%;
+}
+
+b {
+	font-family: Inconsolata;
+	font-size: 0.8rem;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+p + ul {
+    margin-top: -12px;
+}
+
+p {
+   margin: -5px;
+}
+
+button {
+   color: rgb(0,0,0);
+   padding: 0;
+   border: none;
+   background: none;
+}
+
+i {
+   font-size: 0.65rem;
+}

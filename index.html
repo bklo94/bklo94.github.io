@@ -1,157 +1,131 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen">
-    <link type="image/x-icon" rel="icon" href="favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Olivier Bourgeois">
-    <meta name="description" content="Computer Science student specializing in software">
-    <meta name="keywords" content="software, programming, golang, java, c++, python">
-    <title>Brandon Lo :: Computer Science Student</title>
-  </head>
-  <body>
-    <main>
-      <div id="particles-js"></div>
-      <div id="dheader" class="valign-wrapper">
-        <div class="container center valign">
-          <h1 class="text-light header-name">Brandon Lo</h1>
-          <h5 class="text-med header-title">developer, stargazer, geek, explorer...</h5>
-          <br />
-          <a class="waves-effect btn" href="#dprojects">Click here to learn more!</a>
-        </div>
-      </div>
+<!doctype html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <div id="dprojects">
-        <img class="ground" src="img/ground_top.png" alt="">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://use.fontawesome.com/237983140a.js"></script>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+   <link type="image/x-icon" rel="icon" href="favicon.ico">
+   <meta name="author" content="Brandon Lo">
+   <meta name="description" content="Aspiring Software Developer in San Francisco">
+   <meta name="keywords" content="software, programming, postgresql, mysql ,c, java, c++, python">
+   <title>Brandon Lo's Portfolio Website!</title>
+</head>
+<body>
+   <div class="center">
+      <b class="titleHeader">Brandon Lo's Experience Manual</b>
+      <p style="margin-left: 46%;">
+         <a href="&#098;&#114;&#097;&#110;&#100;&#111;&#110;&#107;&#108;&#111;&#057;&#052;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"> <i class="far fa-envelope" style="font-size: 2rem; color: rgb(0,0,0);"></i> </a>
+         <a href="https://www.linkedin.com/in/bklo94/"> <i class="fab fa-linkedin" style="font-size: 2rem; color: rgb(0,0,0);"></i> </a>
+         <a href="https://github.com/bklo94"> <i class="fab fa-github" style="font-size: 2rem; color: rgb(0,0,0);"></i> </a>
+      </p>
+      <p style="margin-left: 40%; margin-top:-10px;"><button href="resume.pdf"> <u> Download My Latest Resume </u> </button></p>
+      <p></p>
+   </div>
+   <div class="center" style="margin-top:-2px;">
+      <b>Name:  </b>
+         <b>Brandon Lo</b> -- Aspiring Software Developer in San Francisco
+   </div>
+   <div class="center" style="margin-top:3px;">
+      <b>Location  </b>
+      <p style="margin-top:-5px;"></p>
+         <p>South San Francisco, CA </p>
+   </div >
+   <div class="center" style="margin-top:-5px;">
+      <b>Education </b>
+      <p style="margin-top:-5px;"></p>
+         <p>  B.Sc. Computer Science - Oregon State University <span > <i> c/o 2018 </i> </span> </p>
+         <p style="margin-top:-5px;">  B.Sc. Biological Sciences - University of California, Santa Barbara <span> <i> c/o 2016 </i></span> </p>
+   </div>
+   <div class="center" style="margin-top:-5px;">
+      <b>About Me </b>
+      <p style="margin-top:-5px;"></p>
+         <p> Hi, i'm Brandon Lo a computer science student based in San Francisco Bay Area. I am currently attending my senior year Oregon State
+             Univeristy for the Class of 2018. I am currently enjoying back end development, but am eager to explore any and all areas of programming.
+             When I am not working on side projects, I can be found riding bikes or reading books.  </p>
+   </div>
+   <div class="center">
+      <b>--Technical Skills </b>
+      <p style="margin-top: -8px"></p>
+      <p> &emsp; <button data-toggle="collapse" data-target="#skills"> +Expand </button> </p>
+      <p></p>
+         <div id ="skills" class="collapse">
+            <p> <b>&emsp; Proficient: </b> </p>
 
-        <div id="dprojects2">
-          <div class="container center">
-            <h1 class="text-light text-shadow">Nice to meet you!</h1>
-
-            <div class="row">
-              <div class="col s12 m12 l6">
-                <img class="card-image" src="img/photo.png" alt="Self Photograph">
-              </div>
-              <div class="col s12 m12 l6">
-                <h4 class="text-light text-shadow">Who am I?</h4>
-                <p class="text-light text-shadow">
-                  Hello. I am Brandon Lo, a post baccalaureate Computer Science student at Oregon State University.
-                  I graduated in June 2016 with a Bachelor of Science in Biological Sciences from University of California, Santa Barbara.
-                  While I am not studying, I can be found either working at my local accounting firm or working on side projects.
-                  I enjoy hiking, traveling, and exploring in general.
-                  At night, I love looking up to the stars and I secretly hope that one day interstellar travel will be easily accessible.
-                </p>
-              </div>
-            </div>
-
-            <div class="divider"></div>
-
-            <div class="row">
-              <div class="col s12 m12 l6">
-                <h4 class="text-light text-shadow">My skillset</h4>
-                <p class="text-light text-shadow">
-                  My skillset includes programming languages such as C++,C, Python, x86/ARM Assembly, Java, and Javascript, . Additionally, I know my way
-                  around a terminal and can learn new frameworks and tools in a relatively short period of time. I have some experience with
-                  MySQL, SQLite3, PostgreSQL, Git, and the JSON format.
-                  I am also a resourceful teammate and competent problem solver.
-                  In spring of 2016, myself and a teammate participated in SB Hacks II and used the GoodRx API to create an android application.
-                </p>
-              </div>
-              <div class="col s12 m12 l6">
-                <img class="card-image" src="img/screen_skills.png" alt="Skills Screenshot">
-              </div>
-            </div>
-
-          </div>
-          <div class="container center">
-            <h1 class="text-light text-shadow">Recent projects</h1>
-            <p class="text-light text-shadow">
-            </p>
-
-            <div class="row">
-              <div class="col s12 m12 l6">
-                <img class="card-image" src="img/screen_brandon.png" alt="Bourgeois.io Screenshot">
-              </div>
-              <div class="col s12 m12 l6">
-                <h4 class="text-light text-shadow">brandonkitlo.com</h4>
-                <p class="text-light text-shadow">
-                  This site was built using a website found on github and major modifications were done in order to set up and make it suitable
-                  for my own personal purposes. The website was built in order to have a one page website where I could host a portfolio of what I
-                  do and my current skillset.
-                  <br /><br />
-                  May 2016<br />
-                  Website: <a href="http://brandonkitlo.com">brandonkitlo.com</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="divider"></div>
-
-            <div class="row">
-              <div class="col s12 m12 l6">
-                <h4 class="text-light text-shadow">GoodRx</h4>
-                <p class="text-light text-shadow">
-                  Created in a team of two. We created an android calendar app from the ground up. We wanted to create an accountability
-                  app in order to track the medication habits and when the medication quantity would lower, it would automatically link
-                  the drug using the GoodRx search. We used Android studios to create the app using SQL and Java in order to implement the
-                  calendar event adding and searchs.
-                  <br /><br />
-                  Spring 2016<br />
-                </p>
-              </div>
-              <div class="col s12 m12 l6">
-                <img class="card-image .hide-on-med-and-down" src="img/screen_goodrx.png" alt="Apollo Screenshot">
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <img class="ground" src="img/ground_bottom.png" alt="">
-      </div>
-
-      <div id="dother">
-        <div class="container center">
-          <h3 class="text-light text-shadow">Want to say hello?</h3>
-          <p class="text-light text-shadow">
-            Feel free to send me an email at <a href="mailto:brandonklo94@gmail.com">brandonklo94@gmail.com</a>
-          </p>
-          <br />
-          <a class="waves-effect btn" href="https://github.com/bklo94">GitHub</a>
-          <a class="waves-effect btn" href="https://ca.linkedin.com/in/bklo94">LinkedIn</a>
-          <a class="waves-effect btn" href="/blog/">Blog</a>
-          <a class="waves-effect btn" href="resume.pdf">Resume</a>
-        </div>
-      </div>
-    </main>
-
-    <div id="dfooter">
-      <footer class="page-footer footer">
-        <div class="footer-copyright">
-          <div class="container center">
-            <span class="text-med">
-              Website made with &#9829;
-            </span>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/particles.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-74312644-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
-</html>
+               &emsp;&emsp; <a href="https://www.python.org/"> <i class="devicon-python-plain" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+               <a href="https://isocpp.org/"> <i class="devicon-cplusplus-plain-wordmark" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+               <a href="http://www.open-std.org/jtc1/sc22/wg14/"> <i class="devicon-c-plain-wordmark" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+            <p> &emsp; <b> Familiar: </b> </p>
+               &emsp;&emsp; <a href="https://www.w3.org/TR/html/"> <i class="devicon-html5-plain" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+               <a href="https://www.w3.org/Style/CSS/Overview.en.html">  <i class="devicon-css3-plain" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+               <a href="https://www.javascript.com/">  <i class="devicon-javascript-plain" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+               <a href="https://www.java.com/en/"> <i class="devicon-java-plain"></i> </a>
+            <p> &emsp; <b> Framework/Libraries: </b> </p>
+               &emsp;&emsp; <a href="hhttps://www.djangoproject.com/">  <i class="devicon-django-plain" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+               <a href="https://www.postgresql.org/">  <i class="devicon-postgresql-plain-wordmark" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+               <a href="https://www.mysql.com/">  <i class="devicon-mysql-plain-wordmark" style="font-size: 3rem; color: rgb(0,0,0);"></i> </a>
+         </div>
+      <p></p>
+   </div>
+   <div class="center">
+      <b>--Personal Projects </b>
+         <p style="margin-top: 5px;"> &emsp; <b> JobCaravan </b> | <i> C, Python, Javascript, HTML5/CSS, Postgres </i> <span> <button style="" href="https://github.com/bklo94/JobCaravan"> <u> Live Demo Currently in Development </u> </button> | <button style="" href="https://github.com/bklo94/JobCaravan"> <u> Source Code </u> </button> </span> </p>
+            <ul>
+                  &emsp;&emsp;<li> Created C backend to get API requests and insert them into a Postgres database. </li>
+                  &emsp;&emsp;<li> Utilized Django to create a front end and gather a list of jobs from the most promising tech cities. </li>
+                  <!-- &emsp;&emsp;<li> Upgraded and maintained the company's 11 workstations. </li> -->
+                  &emsp;&emsp;<li> Project progress: <a href="https://github.com/bklo94/JobCaravan/projects/1"> Link </a> </li>
+            </ul>
+         <p> &emsp; <b> Novel Tracking App </b> | <i> Python, SQLite3 </i> <span> <button style="" href="https://github.com/bklo94/Daily-Programmer/tree/master/Random%20Projects/Novel"> <u> Source Code </u> </button> </span> </p>
+            <ul>
+                  &emsp;&emsp;<li> Utilized the BeautifulSoup module to parse through webpages to find novels that I wanted to keep track of.</li>
+                  &emsp;&emsp;<li> The app allows the user to search,store, and update selected novels in a SQLite database. </li>
+                  &emsp;&emsp;<li> Once a new novel is found or updated, the user is sent an email through SMTP.</li>
+                  &emsp;&emsp;<li> Used crontab to run and update the novels daily.</li>
+            </ul>
+         <p> &emsp; <b> /r/Buildapcsales Bot </b> | <i> Python, SQLite3 </i> <span> <button style="" href="https://github.com/bklo94/Daily-Programmer/blob/master/Random%20Projects/subredditmonitor.py"> <u> Source Code </u> </button> </span> </p>
+            <ul>
+                  &emsp;&emsp;<li> Created the bot to stay up to date with API use and how Python parses through webpages. </li>
+                  &emsp;&emsp;<li> Used the Python Reddit API Wrapper to search for relevant posts and send a message to
+myself about a new post. </li>
+                  &emsp;&emsp;<li> The script ran on Heroku and updated the database every 15 minutes. </li>
+            </ul>
+         <p> &emsp; <b> GoodRX Drug App </b> | <i> Java </i> <span> <button style="" href="https://github.com/bklo94/GoodRx"> <u> Source Code </u> </button> </span> </p>
+            <ul>
+                  &emsp;&emsp;<li> Created this Android app during SB Hacks II with 1 other team member.</li>
+                  &emsp;&emsp;<li> Utilized the GoodRX API to implement a search for the lowest drug price.</li>
+                  &emsp;&emsp;<li> Created a calendar view with alerts, so users can track their prescriptions.</li>
+            </ul>
+   </div>
+   <div class="center">
+      <b>--Work Experience  </b>
+         <p style="margin-top: 5px;"> <b> &emsp; Accountant - (Database Corportation) </b>
+            <ul>
+                  &emsp;&emsp;<li> Filed taxes and other various accounting tasks for over 50 corporations using Quickbooks.</li>
+                  &emsp;&emsp;<li> Suggested and implemented a change in company policy to switch from paper documents to digital.</li>
+                  &emsp;&emsp;<li> Upgraded and maintained the company's 11 workstations.</li>
+                  &emsp;&emsp;<li> Maintained the server which created nightly backups.</li>
+            </ul>
+         </p>
+         <p> <b> &emsp; Payroll Specialist - (Payroll Easy) </b>
+            <ul>
+                  &emsp;&emsp;<li> Distributed and processed payroll checks and deposits for over 60 companies using Pensoft software.</li>
+                  &emsp;&emsp;<li> Handled all changes to payroll, 401k, new hires, terminations, rate changes, PTO, garnishments, etc.</li>
+                  &emsp;&emsp;<li> Assisted in auditing payrolls and other client issues.</li>
+            </ul>
+         </p>
+   </div>
+   <div class="center">
+      <b>--Contact Information <br> </b>
+         <p style="margin-top: 6px; margin-bottom: 7px"> Email: <a style="color: rgb(0,0,0)" href="&#098;&#114;&#097;&#110;&#100;&#111;&#110;&#107;&#108;&#111;&#057;&#052;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#114;&#097;&#110;&#100;&#111;&#110;&#107;&#108;&#111;&#057;&#052;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; </a> </p>
+         <button style="color: rgb(0,0,0)" href="resume.pdf"> <u> Download My Latest Resume </u> </button>
+   </div>
+</body>
