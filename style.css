@@ -7,8 +7,18 @@
 }
 
 .titleHeader{
-   position: relative;
-   margin-left: 37.5%;
+   position: absolute;
+   transform: translate(75%, -50%);
+}
+
+.headerP{
+   position: absolute;
+   transform: translate(250%, 25%);
+}
+
+.headerP2{
+   position: absolute;
+   transform: translate(105%, 340%);
 }
 
 .newList {
