@@ -8,17 +8,17 @@
 
 .titleHeader{
    position: absolute;
-   transform: translate(100%, 0%);
+   transform: translate(100%, -90%);
 }
 
 .headerP{
    position: absolute;
-   transform: translate(200%, 40%));
+   transform: translate(405%, 40%));
 }
 
 .headerP2{
    position: absolute;
-   transform: translate(115%, 380%);
+   transform: translate(125%, -100%);
 }
 
 .newList {
@@ -71,6 +71,13 @@ p {
 }
 
 button {
+   color: rgb(0,0,0);
+   padding: 0;
+   border: none;
+   background: none;
+}
+
+a {
    color: rgb(0,0,0);
    padding: 0;
    border: none;
