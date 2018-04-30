@@ -8,17 +8,17 @@
 
 .titleHeader{
    position: absolute;
-   transform: translate(75%, -50%);
+   transform: translate(100%, 0%);
 }
 
 .headerP{
    position: absolute;
-   transform: translate(250%, 25%);
+   transform: translate(200%, 40%));
 }
 
 .headerP2{
    position: absolute;
-   transform: translate(105%, 340%);
+   transform: translate(115%, 380%);
 }
 
 .newList {
