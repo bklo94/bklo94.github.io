@@ -47,6 +47,14 @@ li{
    margin-bottom: -3px;
 }
 
+#classes1{
+   margin-bottom: 10px;
+}
+
+#classes2{
+   margin-bottom: 10px;
+}
+
 div {
 	font-family: Inconsolata;
 	font-size: 0.8rem;
@@ -95,3 +103,8 @@ i {
    vertical-align: -.25em;
    text-shadow: -1px -1px 0px white, -1px 1px 0px white, -1px 0px 0px white; // optional contrast
  }
+
+.rowlist{
+   display:list-item;
+   list-style:disc inside;
+}
