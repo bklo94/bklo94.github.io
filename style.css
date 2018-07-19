@@ -1,4 +1,23 @@
 /* style.css */
+html *{
+   font-size: 1.1em !important;
+   color: #000 !important;
+}
+
+.mheader{
+   font-size: 1.5em !important;
+   color: #000 !important;
+}
+
+.cicon{
+   font-size: 2.2em !important;
+   color: #000 !important;
+}
+
+.cicon2{
+    font-size: 3em !important;
+    color: #000 !important;
+ }
 
 .center{
     margin: auto;
@@ -34,8 +53,8 @@ body{
    margin: auto;
    text-align:center
    color: #444;
-   padding-top: 15px;
-   padding-bottom: 25px;
+   padding-top: 1em;
+   padding-bottom: 1em;
 }
 
 span{
@@ -43,21 +62,17 @@ span{
   float: right;
 }
 
-li{
-   margin-bottom: -3px;
-}
 
 #classes1{
-   margin-bottom: 10px;
+   margin-bottom: 3em;
 }
 
 #classes2{
-   margin-bottom: 10px;
+   margin-bottom: 3em;
 }
 
 div {
 	font-family: Inconsolata;
-	font-size: 0.8rem;
 	font-style: normal;
 	font-variant: normal;
    line-height: 90%;
@@ -65,13 +80,12 @@ div {
 
 b {
 	font-family: Inconsolata;
-	font-size: 0.8rem;
 	font-variant: small-caps;
 	font-weight: bold;
 }
 
 p + ul {
-    margin-top: -12px;
+    margin-top: -10px;
 }
 
 p {
@@ -107,4 +121,5 @@ i {
 .rowlist{
    display:list-item;
    list-style:disc inside;
+   padding: 3px;
 }
