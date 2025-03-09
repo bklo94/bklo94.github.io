@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Experience - Brandon Lo</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type='text/css'>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Title Section -->
+      <div class="intro">
+        <hr class="intro-hr left-hr" />
+        <div class="intro-text">Experience</div>
+        <hr class="intro-hr right-hr" />
+      </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Work Experience Section -->
+      <section class="work-experience">
+        <!-- Visa Inc. -->
+        <div class="work-entry">
+          <div class="work-header">
+            <h3>Senior Data Engineer - Visa Inc.</h3>
+            <p><strong>Year:</strong> 2022 - Present</p>
+          </div>
+          <button class="work-title">View Responsibilities</button>
+          <div class="work-content">
+            <ul>
+              <li>Designed and implemented scalable data pipelines.</li>
+              <li>Optimized database queries for performance.</li>
+              <li>Collaborated with cross-functional teams to deliver data solutions.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Clearsense Inc. -->
+        <div class="work-entry">
+          <div class="work-header">
+            <h3>SDE Consultant - Clearsense Inc.</h3>
+            <p><strong>Year:</strong> 2021 - 2022</p>
+          </div>
+          <button class="work-title">View Responsibilities</button>
+          <div class="work-content">
+            <ul>
+              <li>Developed backend services for healthcare data platforms.</li>
+              <li>Implemented data encryption and security measures.</li>
+              <li>Mentored junior developers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Splice Machine Inc. -->
+        <div class="work-entry">
+          <div class="work-header">
+            <h3>Cloud Engineer - Splice Machine Inc.</h3>
+            <p><strong>Year:</strong> 2020 - 2021</p>
+          </div>
+          <button class="work-title">View Responsibilities</button>
+          <div class="work-content">
+            <ul>
+              <li>Deployed and managed cloud infrastructure on AWS.</li>
+              <li>Automated CI/CD pipelines for faster deployments.</li>
+              <li>Monitored system performance and resolved issues.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="copyright">Copyright (c) 2021 Brandon Lo</div>
+    </footer>
+
+    <script>
+      // JavaScript to handle expand/collapse functionality for work entries
+      const workTitles = document.querySelectorAll('.work-title');
+      workTitles.forEach(title => {
+        title.addEventListener('click', () => {
+          const content = title.nextElementSibling;
+          content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        });
+      });
+    </script>
+  </body>
+</html>

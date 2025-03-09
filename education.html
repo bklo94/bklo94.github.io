@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Education - Brandon Lo</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type='text/css'>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Title Section -->
+      <div class="intro">
+        <hr class="intro-hr left-hr" />
+        <div class="intro-text">Education</div>
+        <hr class="intro-hr right-hr" />
+      </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Education Details -->
+      <section class="education-details">
+        <!-- Oregon State University -->
+        <div class="education-entry">
+          <div class="education-header">
+            <h3>Oregon State University</h3>
+            <p><strong>Degree:</strong> B.S. in Computer Science</p>
+            <p><strong>Year:</strong> 2020 - 2022</p>
+          </div>
+          <button class="education-title">View Relevant Courses</button>
+          <div class="education-content">
+            <ul>
+              <li>Data Structures</li>
+              <li>Algorithms</li>
+              <li>Web Development</li>
+              <li>Databases</li>
+              <li>Operating Systems</li>
+              <li>Software Engineering</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- UC Santa Barbara -->
+        <div class="education-entry">
+          <div class="education-header">
+            <h3>UC Santa Barbara</h3>
+            <p><strong>Degree:</strong> B.S. in Biological Sciences</p>
+            <p><strong>Year:</strong> 2014 - 2018</p>
+          </div>
+          <button class="education-title">View Relevant Courses</button>
+          <div class="education-content">
+            <ul>
+              <li>Genetics</li>
+              <li>Molecular Biology</li>
+              <li>Biochemistry</li>
+              <li>Cell Biology</li>
+              <li>Microbiology</li>
+              <li>Organic Chemistry</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="copyright">Copyright (c) 2021 Brandon Lo</div>
+    </footer>
+
+    <script>
+      // JavaScript to handle expand/collapse functionality for education entries
+      const educationTitles = document.querySelectorAll('.education-title');
+      educationTitles.forEach(title => {
+        title.addEventListener('click', () => {
+          const content = title.nextElementSibling;
+          content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        });
+      });
+    </script>
+  </body>
+</html>
