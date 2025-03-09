@@ -38,7 +38,7 @@
             <p><strong>Year:</strong> 2022 - Present</p>
           </div>
           <button class="work-title">View Responsibilities</button>
-          <div class="work-content">
+          <div class="work-content" style="display: none;">
             <ul>
               <li>Designed and implemented scalable data pipelines.</li>
               <li>Optimized database queries for performance.</li>
@@ -54,7 +54,7 @@
             <p><strong>Year:</strong> 2021 - 2022</p>
           </div>
           <button class="work-title">View Responsibilities</button>
-          <div class="work-content">
+          <div class="work-content" style="display: none;">
             <ul>
               <li>Developed backend services for healthcare data platforms.</li>
               <li>Implemented data encryption and security measures.</li>
@@ -70,7 +70,7 @@
             <p><strong>Year:</strong> 2020 - 2021</p>
           </div>
           <button class="work-title">View Responsibilities</button>
-          <div class="work-content">
+          <div class="work-content" style="display: none;">
             <ul>
               <li>Deployed and managed cloud infrastructure on AWS.</li>
               <li>Automated CI/CD pipelines for faster deployments.</li>
@@ -86,14 +86,17 @@
     </footer>
 
     <script>
-      // JavaScript to handle expand/collapse functionality for work entries
-      const workTitles = document.querySelectorAll('.work-title');
-      workTitles.forEach(title => {
-        title.addEventListener('click', () => {
-          const content = title.nextElementSibling;
-          content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        // JavaScript to handle expand/collapse functionality for work entries
+        const workTitles = document.querySelectorAll('.work-title');
+        workTitles.forEach(title => {
+          title.addEventListener('click', () => {
+            const content = title.nextElementSibling;
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+          });
+
+          // Collapse all sections by default
+          title.nextElementSibling.style.display = 'none';
         });
-      });
-    </script>
+      </script>
   </body>
 </html>

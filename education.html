@@ -39,7 +39,7 @@
             <p><strong>Year:</strong> 2020 - 2022</p>
           </div>
           <button class="education-title">View Relevant Courses</button>
-          <div class="education-content">
+          <div class="education-content" style="display: none;">
             <ul>
               <li>Data Structures</li>
               <li>Algorithms</li>
@@ -59,7 +59,7 @@
             <p><strong>Year:</strong> 2014 - 2018</p>
           </div>
           <button class="education-title">View Relevant Courses</button>
-          <div class="education-content">
+          <div class="education-content" style="display: none;">
             <ul>
               <li>Genetics</li>
               <li>Molecular Biology</li>
@@ -78,14 +78,17 @@
     </footer>
 
     <script>
-      // JavaScript to handle expand/collapse functionality for education entries
-      const educationTitles = document.querySelectorAll('.education-title');
-      educationTitles.forEach(title => {
-        title.addEventListener('click', () => {
-          const content = title.nextElementSibling;
-          content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        // JavaScript to handle expand/collapse functionality for education entries
+        const educationTitles = document.querySelectorAll('.education-title');
+        educationTitles.forEach(title => {
+          title.addEventListener('click', () => {
+            const content = title.nextElementSibling;
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+          });
+
+          // Collapse all sections by default
+          title.nextElementSibling.style.display = 'none';
         });
-      });
-    </script>
+      </script>
   </body>
 </html>
