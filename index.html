@@ -10,77 +10,103 @@
     <link href="style.css" rel="stylesheet" type='text/css'>
   </head>
 
-  <body style="width:380px;margin-left:auto;margin-right:auto;"><br/>
-    <div style="width: 100%;">
-      <hr style="top: 37px; left: 0; color: #03fcf4;"/>
-      <div style="text-align: center; background-color: white; margin: 0 auto; width: 120px;">Hi, I'm Brandon!</div><br/>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <hr class="intro-hr left-hr" />
+        <div class="intro-text">Hi, I'm Brandon!</div>
+        <hr class="intro-hr right-hr" />
+      </div>
+
+      <section class="work">
+        <h2><i>Work</i></h2>
+        <div class="entry">
+          <span class="left">Senior Data Engineer</span>
+          <hr class="dotted-hr work-hr" />
+          <a href="https://usa.visa.com/" class="right">Visa Inc.</a>
+        </div>
+        <div class="entry">
+          <span class="left">SDE Consultant</span>
+          <hr class="dotted-hr work-hr" />
+          <a href="https://clearsense.com/" class="right">Clearsense Inc.</a>
+        </div>
+        <div class="entry">
+          <span class="left">Cloud Engineer</span>
+          <hr class="dotted-hr work-hr" />
+          <a href="https://splicemachine.com/" class="right">Splice Machine Inc.</a>
+        </div>
+        <div class="entry">
+          <span class="left">Staff Accountant</span>
+          <hr class="dotted-hr work-hr" />
+          <a href="https://payrolleasy.org/" class="right">Database Corp</a>
+        </div>
+        <div class="entry">
+          <span class="left">Payroll Specialist</span>
+          <hr class="dotted-hr work-hr" />
+          <a href="https://payrolleasy.org/" class="right">Payroll-Easy</a>
+        </div>
+      </section>
+
+      <section class="education">
+        <h2><i>Education</i></h2>
+        <div class="entry">
+          <span class="left">B.S. in CS</span>
+          <hr class="dotted-hr education-hr" />
+          <a href="https://oregonstate.edu/" class="right">Oregon State</a>
+        </div>
+        <div class="entry">
+          <span class="left">B.S. in Bio</span>
+          <hr class="dotted-hr education-hr" />
+          <a href="https://www.ucsb.edu/" class="right">UC Santa Barbara</a>
+        </div>
+      </section>
+
+      <section class="links">
+        <h2><i>Links</i></h2>
+        <div class="entry">
+          <span class="left">Email</span>
+          <hr class="dotted-hr links-hr" />
+          <a href="mailto:mail@brandonkitlo.com" class="right">mail@brandonkitlo.com</a>
+        </div>
+        <div class="entry">
+          <span class="left">Github</span>
+          <hr class="dotted-hr links-hr" />
+          <a href="https://github.com/bklo94" class="right">github.com/bklo94</a>
+        </div>
+        <div class="entry">
+          <span class="left">LinkedIn</span>
+          <hr class="dotted-hr links-hr" />
+          <a href="https://linkedin.com/in/bklo94/" class="right">linkedin.com/in/bklo94</a>
+        </div>
+        <div class="entry">
+          <span class="left">Resume</span>
+          <hr class="dotted-hr links-hr" />
+          <a href="resume.pdf" class="right">Brandon Lo's Resume</a>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2><i>Projects</i></h2>
+        <div class="entry">
+          <span class="left">JobSpace</span>
+          <hr class="dotted-hr projects-hr" />
+          <a href="https://github.com/bklo94/JobCaravan" class="right">job mapping/tracking</a>
+        </div>
+        <div class="entry">
+          <span class="left">Compiler</span>
+          <hr class="dotted-hr projects-hr" />
+          <a href="https://github.com/bklo94/Cetus-Compiler" class="right">csimple compiler</a>
+        </div>
+        <div class="entry">
+          <span class="left">Portfolio</span>
+          <hr class="dotted-hr projects-hr" />
+          <a href="https://github.com/bklo94/Portfolio-Site" class="right">this website</a>
+        </div>
+      </section>
     </div>
-    <i>Work</i><br/>
-    <div style="max-width: 350px; position:relative">
-      <a style="float: left; border-right-width: 10px;">Senior Data Engineer</a>
-      <hr style="top: 8%; color: #ffb347"/>
-      <a href="https://usa.visa.com/" style="float: right; border-left-width: 10px;">Visa Inc.</a><br/>
-      <a style="float: left; border-right-width: 10px;">SDE Consultant</a>
-      <hr style="top: 30%; color: #ffb347"/>
-      <a href="https://clearsense.com/" style="float: right; border-left-width: 10px;">Clearsense Inc.</a><br/>
-      <a style="float: left; border-right-width: 10px;">Cloud Engineer</a>
-      <hr style="top: 53%; color: #ffb347"/>
-      <a href="https://splicemachine.com/" style="float: right; border-left-width: 10px;">Splice Machine Inc.</a><br/>
-      <a style="float: left; clear:both; border-right-width: 10px;">Staff Accountant</a>
-      <hr style="top: 77%; color: #ffb347"/>
-      <a href="https://payrolleasy.org/" style="float: right; border-left-width: 10px;">Database Corp</a><br/>
-      <a style="float: left; clear:both; border-right-width: 10px;">Payroll Specialist</a>
-      <hr style="top: 98%; color: #ffb347"/>
-      <a href="https://payrolleasy.org/" style="float: right; border-left-width: 10px;">Payroll-Easy</a><br/>
-    </div>
-    <br/>
-    <br/>
-    <div style="max-width: 350px; position:relative">
-      <i>Education</i><br/>
-      <a style="float: left; clear:both; border-right-width: 10px;">B.S. in CS</a>
-      <hr style="top: 48%; color: #4fe831;"/>
-      <a href="https://oregonstate.edu/" style="float: right; border-left-width: 10px;">Oregon State</a><br/>
-      <a style="float: left; clear:both; border-right-width: 10px;">B.S. in Bio</a>
-      <hr style="top: 88%; color: #4fe831;"/>
-      <a href="https://www.ucsb.edu/" style="float: right; border-left-width: 10px;">UC Santa Barbara</a><br/>
-    </div>
-    <br/>
-    <br/>
-    <i>Links</i><br/>
-    <div style="max-width: 350px; position:relative">
-      <a href="mailto:mail@brandonkitlo.com" style="float: left; border-right-width: 10px;">Email</a>
-      <hr style="top: 10%; color: #92A8D1"/>
-      <a href="mailto:mail@brandonkitlo.com" style="float: right; border-left-width: 10px;">mail@brandonkitlo.com</a><br/>
-      <a href="https://github.com/bklo94" style="float: left; clear:both; border-right-width: 10px;">Github</a>
-      <hr style="top: 38%; color: #92A8D1;"/>
-      <a href="https://github.com/bklo94" style="float: right; border-left-width: 10px;">github.com/bklo94</a><br/>
-      <a href="https://linkedin.com/in/bklo94/" style="float: left; clear:both; border-right-width: 10px;">LinkedIn</a>
-      <hr style="top: 66%; color: #92A8D1"/>
-      <a href="https://linkedin.com/in/bklo94/" style="float: right; border-left-width: 10px;">linkedin.com/in/bklo94</a><br/>
-      <a href="resume.pdf" style="float: left; clear:both; border-right-width: 10px;">Resume</a>
-      <hr style="top: 95%; color: #92A8D1"/>
-      <a href="resume.pdf" style="float: right; border-left-width: 10px;">Brandon Lo's Resume</a><br/>
-    </div>
-    <br/>
-    <br/>
-    <i>Projects</i><br/>
-    <div style="max-width: 350px; position:relative">
-      <a href="https://github.com/bklo94/JobCaravan" style="float: left; border-right-width: 10px;">JobSpace</a>
-      <hr style="top: 8%; color: #ff4d4d"/>
-      <a href="https://github.com/bklo94/JobCaravan" style="float: right; border-left-width: 10px;">job mapping/tracking</a><br/>
-      <a href="https://github.com/bklo94/Cetus-Compiler" style="float: left; clear:both; border-right-width: 10px;">Compiler</a>
-      <hr style="top: 26%; color: #ff4d4d"/>
-      <a href="https://github.com/bklo94/Cetus-Compiler" style="float: right; border-left-width: 10px;">csimple compiler</a><br/>
-      <a href="https://github.com/bklo94/Portfolio-Site" style="float: left; clear:both; border-right-width: 10px;">Portfolio</a>
-      <hr style="top: 44%; color: #ff4d4d"/>
-      <a href="https://github.com/bklo94/Portfolio-Site" style="float: right; border-left-width: 10px;">this website</a><b
-    </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+
+    <footer>
+      <div class="copyright">Copyright (c) 2025 Brandon Lo</div>
+    </footer>
   </body>
-  <footer>
-      <copyright style="font-size: 10px;">Copyright (c) 2021 Brandon Lo </copyright>
-  </footer>
 </html>
